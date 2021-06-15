@@ -1,2 +1,8 @@
-# directus-build-and-deploy-module
-A frontend module for Directus that calls a custom endpoint to build and deploy a site
+# Directus 9 build and deploy module and endpoint
+
+Includes:
+
+- `/module` - Directus 9 frontend module
+- `/endpoint` - Source for example endpoint
+
+You will need to modify both to get them to work on your site. See the readme files in directories.

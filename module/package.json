@@ -1,0 +1,20 @@
+{
+  "name": "directus-module-deploy-gridsome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rollup -c && cp ./dist/index.js ../cms/extensions/modules/directus-module-deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.50.6",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.13"
+  }
+}
